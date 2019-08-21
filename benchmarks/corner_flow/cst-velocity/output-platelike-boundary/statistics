@@ -1,0 +1,25 @@
+# 1: Time step number
+# 2: Time (seconds)
+# 3: Time step size (seconds)
+# 4: Number of mesh cells
+# 5: Number of Stokes degrees of freedom
+# 6: Number of temperature degrees of freedom
+# 7: Iterations for temperature solver
+# 8: Iterations for Stokes solver
+# 9: Velocity iterations in Stokes preconditioner
+# 10: Schur complement iterations in Stokes preconditioner
+# 11: Visualization file name
+# 12: Minimal temperature (K)
+# 13: Average temperature (K)
+# 14: Maximal temperature (K)
+# 15: Average nondimensional temperature (K)
+# 16: Outward heat flux through boundary with indicator 0 ("left") (W)
+# 17: Outward heat flux through boundary with indicator 1 ("right") (W)
+# 18: Outward heat flux through boundary with indicator 2 ("bottom") (W)
+# 19: Outward heat flux through boundary with indicator 3 ("top") (W)
+0 0.000000000000e+00 0.000000000000e+00 1024 9539 4225  0 53 56 56 output-platelike-boundary/solution/solution-00000  0.00000000e+00 5.00000000e-01 1.00000000e+00 5.00000000e-01 0.00000000e+00 0.00000000e+00 -5.64002200e+00 -5.64055213e+00 
+1 1.562500000000e-02 1.562500000000e-02 1024 9539 4225 14 16 18 18                                                ""  0.00000000e+00 5.00000285e-01 1.00000000e+00 5.00000285e-01 0.00000000e+00 0.00000000e+00 -1.17515623e+03  1.07042140e+03 
+2 3.125000000000e-02 1.562500000000e-02 1024 9539 4225 16  4  6  6                                                "" -3.45503082e-03 5.00000913e-01 1.00000000e+00 5.03455943e-01 0.00000000e+00 0.00000000e+00 -3.96362325e+02  9.27339216e+01 
+3 4.687500000000e-02 1.562500000000e-02 1024 9539 4225 15  4  6  6                                                "" -5.90458907e-03 5.00002104e-01 1.00000000e+00 5.05906693e-01 0.00000000e+00 0.00000000e+00 -6.04756663e+02  1.57154296e+01 
+4 6.250000000000e-02 1.562500000000e-02 1024 9539 4225 15  3  5  5                                                "" -5.84929163e-03 5.00003914e-01 1.00000000e+00 5.05853206e-01 0.00000000e+00 0.00000000e+00 -8.65913977e+02 -1.88156231e+01 
+5 7.812500000000e-02 1.562500000000e-02 1024 9539 4225 15  4  6  6                                                "" -5.69891248e-03 5.00006260e-01 1.00000000e+00 5.05705173e-01 0.00000000e+00 0.00000000e+00 -1.09423560e+03 -2.88911555e+01 
