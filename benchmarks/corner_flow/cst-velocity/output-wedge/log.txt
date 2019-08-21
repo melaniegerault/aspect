@@ -1,0 +1,107 @@
+-----------------------------------------------------------------------------
+-- This is ASPECT, the Advanced Solver for Problems in Earth's ConvecTion.
+--     . version 2.2.0-pre (corner_flow, 285eda920)
+--     . using deal.II 9.1.1
+--     .       with 32 bit indices and vectorization level 1 (128 bits)
+--     . using Trilinos 12.14.1
+--     . using p4est 2.0.0
+--     . running in DEBUG mode
+--     . running with 1 MPI process
+-----------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------
+-- For information on how to cite ASPECT, see:
+--   https://aspect.geodynamics.org/citing.html?ver=2.2.0-pre&sha=285eda920&src=code
+-----------------------------------------------------------------------------
+Number of active cells: 9,120 (on 3 levels)
+Number of degrees of freedom: 120,020 (83,123+36,897)
+
+*** Timestep 0:  t=0 seconds
+   Solving temperature system... 0 iterations.
+   Solving Stokes system... done.
+
+   Postprocessing:
+     RMS, max velocity:                  0.427 m/s, 1.41 m/s
+     Temperature min/avg/max:            1 K, 1 K, 1 K
+     Heat fluxes through boundary parts: 2.333e-14 W, 0 W, 0 W, 0 W
+     Writing graphical output:           output-wedge/solution/solution-00000
+
+*** Timestep 1:  t=0.00178954 seconds
+   Solving temperature system... 0 iterations.
+   Solving Stokes system... done.
+
+   Postprocessing:
+     RMS, max velocity:                  0.427 m/s, 1.41 m/s
+     Temperature min/avg/max:            1 K, 1 K, 1 K
+     Heat fluxes through boundary parts: 2.333e-14 W, 0 W, 0 W, 0 W
+
+*** Timestep 2:  t=0.00357908 seconds
+   Solving temperature system... 0 iterations.
+   Solving Stokes system... done.
+
+   Postprocessing:
+     RMS, max velocity:                  0.427 m/s, 1.41 m/s
+     Temperature min/avg/max:            1 K, 1 K, 1 K
+     Heat fluxes through boundary parts: 2.333e-14 W, 0 W, 0 W, 0 W
+
+*** Timestep 3:  t=0.00536863 seconds
+   Solving temperature system... 0 iterations.
+   Solving Stokes system... done.
+
+   Postprocessing:
+     RMS, max velocity:                  0.427 m/s, 1.41 m/s
+     Temperature min/avg/max:            1 K, 1 K, 1 K
+     Heat fluxes through boundary parts: 2.333e-14 W, 0 W, 0 W, 0 W
+
+*** Timestep 4:  t=0.00715817 seconds
+   Solving temperature system... 0 iterations.
+   Solving Stokes system... done.
+
+   Postprocessing:
+     RMS, max velocity:                  0.427 m/s, 1.41 m/s
+     Temperature min/avg/max:            1 K, 1 K, 1 K
+     Heat fluxes through boundary parts: 2.333e-14 W, 0 W, 0 W, 0 W
+
+*** Timestep 5:  t=0.00894771 seconds
+   Solving temperature system... 0 iterations.
+   Solving Stokes system... done.
+
+   Postprocessing:
+     RMS, max velocity:                  0.427 m/s, 1.41 m/s
+     Temperature min/avg/max:            1 K, 1 K, 1 K
+     Heat fluxes through boundary parts: 2.333e-14 W, 0 W, 0 W, 0 W
+
+*** Timestep 6:  t=0.01 seconds
+   Solving temperature system... 0 iterations.
+   Solving Stokes system... done.
+
+   Postprocessing:
+     RMS, max velocity:                  0.427 m/s, 1.41 m/s
+     Temperature min/avg/max:            1 K, 1 K, 1 K
+     Heat fluxes through boundary parts: 2.333e-14 W, 0 W, 0 W, 0 W
+     Writing graphical output:           output-wedge/solution/solution-00001
+
+Termination requested by criterion: end time
+
+
++----------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start     |      93.9s |            |
+|                                              |            |            |
+| Section                          | no. calls |  wall time | % of total |
++----------------------------------+-----------+------------+------------+
+| Assemble Stokes system           |         7 |      15.4s |        16% |
+| Assemble temperature system      |         7 |        26s |        28% |
+| Build temperature preconditioner |         7 |     0.254s |      0.27% |
+| Initialization                   |         1 |    0.0815s |         0% |
+| Postprocessing                   |         7 |      12.7s |        14% |
+| Setup dof systems                |         1 |      0.76s |      0.81% |
+| Setup initial conditions         |         1 |     0.868s |      0.92% |
+| Setup matrices                   |         1 |      0.32s |      0.34% |
+| Solve Stokes system              |         7 |      33.2s |        35% |
+| Solve temperature system         |         7 |    0.0183s |         0% |
++----------------------------------+-----------+------------+------------+
+
+-----------------------------------------------------------------------------
+-- For information on how to cite ASPECT, see:
+--   https://aspect.geodynamics.org/citing.html?ver=2.2.0-pre&sha=285eda920&src=code
+-----------------------------------------------------------------------------

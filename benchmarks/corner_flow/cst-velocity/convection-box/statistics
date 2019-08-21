@@ -1,0 +1,23 @@
+# 1: Time step number
+# 2: Time (seconds)
+# 3: Time step size (seconds)
+# 4: Number of mesh cells
+# 5: Number of Stokes degrees of freedom
+# 6: Number of temperature degrees of freedom
+# 7: Iterations for temperature solver
+# 8: RMS velocity (m/s)
+# 9: Max. velocity (m/s)
+# 10: Minimal temperature (K)
+# 11: Average temperature (K)
+# 12: Maximal temperature (K)
+# 13: Outward heat flux through boundary with indicator 0 ("wedge-top") (W)
+# 14: Outward heat flux through boundary with indicator 1 ("wedge-bottom") (W)
+# 15: Outward heat flux through boundary with indicator 2 ("top") (W)
+# 16: Outward heat flux through boundary with indicator 3 ("sides and bottom") (W)
+# 17: Visualization file name
+0 0.000000000000e+00 0.000000000000e+00 2160 19943 8841  0 2.91597081e+00 1.57593658e+01 -1.22464680e-18 4.20284640e-01 1.00000000e+00  5.99287690e-17 -2.67857143e-03 0.00000000e+00 0.00000000e+00 output-convection-box/solution/solution-00000 
+1 6.175552732872e-04 6.175552732872e-04 2160 19943 8841 36 3.11737687e+00 1.64712501e+01  1.39832000e-02 4.20286890e-01 9.75785017e-01 -2.91316667e-05 -2.60463463e-03 0.00000000e+00 0.00000000e+00                                            "" 
+2 1.210237614086e-03 5.926823407985e-04 2160 19943 8841 28 3.32890952e+00 1.72330262e+01  2.15344344e-02 4.20289540e-01 9.62794125e-01 -4.48634051e-05 -2.56442237e-03 0.00000000e+00 0.00000000e+00                                            "" 
+3 1.778271644132e-03 5.680340300464e-04 2160 19943 8841 27 3.56247154e+00 1.80567661e+01  2.66160278e-02 4.20294222e-01 9.54063949e-01 -5.54500579e-05 -2.53699763e-03 0.00000000e+00 0.00000000e+00                                            "" 
+4 2.321820823196e-03 5.435491790640e-04 2160 19943 8841 26 3.80846818e+00 1.89207753e+01  3.05859964e-02 4.20292917e-01 9.47420182e-01 -6.37208258e-05 -2.51524962e-03 0.00000000e+00 0.00000000e+00                                            "" 
+5 2.842567796387e-03 5.207469731911e-04 2160 19943 8841 25 4.05453646e+00 1.96860457e+01  3.39221160e-02 4.20292617e-01 9.41991202e-01 -7.06710750e-05 -2.49675837e-03 0.00000000e+00 0.00000000e+00                                            "" 

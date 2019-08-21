@@ -1,0 +1,21 @@
+# 1: Time step number
+# 2: Time (seconds)
+# 3: Time step size (seconds)
+# 4: Number of mesh cells
+# 5: Number of Stokes degrees of freedom
+# 6: Number of temperature degrees of freedom
+# 7: Number of degrees of freedom for all compositions
+# 8: Iterations for temperature solver
+# 9: Iterations for composition solver 1
+# 10: RMS velocity (m/s)
+# 11: Max. velocity (m/s)
+# 12: Minimal temperature (K)
+# 13: Average temperature (K)
+# 14: Maximal temperature (K)
+# 15: Outward heat flux through boundary with indicator 0 ("top") (W)
+# 16: Outward heat flux through boundary with indicator 1 ("side") (W)
+# 17: Outward heat flux through boundary with indicator 2 ("bottom") (W)
+# 18: Outward heat flux through boundary with indicator 3 ("slab-bottom") (W)
+# 19: Outward heat flux through boundary with indicator 4 ("slab-side") (W)
+# 20: Visualization file name
+0 0.000000000000e+00 0.000000000000e+00 3116 28417 12613 12613 0 0 5.29530546e-01 1.45594681e+00 1.00000000e+00 1.00000000e+00 1.00000000e+00 0.00000000e+00 0.00000000e+00 0.00000000e+00 9.98493077e-01 -9.98493077e-01 output-vel-wedge/solution/solution-00000 
